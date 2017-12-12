@@ -1,0 +1,33 @@
+{
+  "name": "jpadams-windows_diff_enable",
+  "version": "1.0.0",
+  "author": "Jeremy Adams",
+  "summary": "Enables Windows Puppet file resource diff on par with Linux by installing GNU diff.exe via Chocolatey and setting approprite config settings in puppet.conf",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jpadams/windows_diff_enable",
+  "project_page": "https://github.com/jpadams/windows_diff_enable",
+  "issues_url": "https://github.com/jpadams/windows_diff_enable/issues",
+  "dependencies": [
+    { "name":"puppetlabs/inifile","version_requirement":">= 2.0.0 < 5.0.0" },
+    { "name":"chocolatey/chocolatey","version_requirement":">= 1.2.6 < 5.0.0" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2008 R2",
+        "2012 R2",
+        "10"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.2.1",
+  "template-url": "https://github.com/puppetlabs/pdk-module-template",
+  "template-ref": "heads/master-0-g00b18a7"
+}
