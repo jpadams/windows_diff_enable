@@ -13,7 +13,7 @@ class windows_diff_enable (
     path    => $puppet_conf,
     section => 'agent',
     setting => 'show_diff',
-    value   => 'true',
+    value   => true,
   }
 
   ini_setting { 'Specify diff command':
