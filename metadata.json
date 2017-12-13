@@ -1,6 +1,6 @@
 {
   "name": "jpadams-windows_diff_enable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jeremy Adams",
   "summary": "Enables Windows Puppet file resource diff on par with Linux",
   "license": "Apache-2.0",
